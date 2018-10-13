@@ -22,7 +22,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `orders` (
   `id` int(11) NOT NULL,
-  `product` int(11) NOT NULL,
+  `product` varchar(20) NOT NULL,
   `price` varchar(20) NOT NULL,
   `pending` tinyint(1) NOT NULL DEFAULT '1',
   `quantity` int(11) NOT NULL,
